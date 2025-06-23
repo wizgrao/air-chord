@@ -34,6 +34,9 @@
 		]
 	},
 	"dependencies": {
-		"@mediapipe/tasks-vision": "0.10.22-rc.20250304"
+		"@mediapipe/tasks-vision": "0.10.22-rc.20250304",
+		"@sveltejs/adapter-vercel": "^5.7.2",
+		"@types/ramda": "^0.30.2",
+		"ramda": "^0.31.3"
 	}
 }

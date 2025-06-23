@@ -149,7 +149,7 @@
 </script>
 
 <!-- svelte-ignore a11y_media_has_caption -->
-<div style:margin="auto" style:width="100%">
+<div style:margin="auto" style:max-width="600px">
 	<video bind:this={webcam} id="webcam" autoplay playsinline></video>
 	{#if debugMode}
 		<div class="debug">
