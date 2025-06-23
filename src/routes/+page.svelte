@@ -203,6 +203,7 @@
 		border-radius: 1.5rem;
 		width: 100%;
 		padding: -5px;
+        transform: scaleX(-1);
 	}
 	.debug {
 		border: 5px solid black;
